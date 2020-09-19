@@ -3,6 +3,8 @@
 WORKING_DIR=$(dirname "${BASH_SOURCE[0]}")
 WORKING_DIR=$(cd "$WORKING_DIR" && pwd)
 
+[ ! -d "$WORKING_DIR/bin" ] && mkdir "$WORKING_DIR/bin"
+
 for dir in python js bash; do
     if [ -d "$dir" ]; then
         for file in "$dir"/*; do
