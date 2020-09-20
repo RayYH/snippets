@@ -16,5 +16,5 @@ for dir in python js bash; do
     fi
 done
 
-echo "Add below line to your .bash_profile all other loaded shell profiles if you want to use these scripts globally:"
+echo "Add below line to your .bash_profile if you want to use these scripts globally:"
 echo "export PATH=\"$WORKING_DIR/bin:\$PATH\""
