@@ -2,6 +2,8 @@
 """
 Check websocket connection can be built
 prerequisite: pip3 install websocket_client
+The client doesn’t support connecting through a proxy.
+see https://websockets.readthedocs.io/en/stable/limitations.html?highlight=proxy#limitations
 """
 import sys
 import websocket

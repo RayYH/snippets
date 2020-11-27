@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Replace String in Filename
+Generate markdown element which can be rendered by iTex2Img
 """
 import sys
 import urllib.parse
